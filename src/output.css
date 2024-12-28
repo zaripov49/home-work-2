@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .ml-\[\] {
   margin-left: ;
 }
@@ -618,6 +622,14 @@ video {
   margin-top: 52px;
 }
 
+.ml-\[100\] {
+  margin-left: 100;
+}
+
+.ml-\[400px\] {
+  margin-left: 400px;
+}
+
 .flex {
   display: flex;
 }
@@ -674,8 +686,24 @@ video {
   width: 550px;
 }
 
+.w-\[200\] {
+  width: 200;
+}
+
+.w-\[260px\] {
+  width: 260px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
 }
 
 .items-center {
@@ -706,7 +734,19 @@ video {
   gap: 70px;
 }
 
+.gap-\[80px\] {
+  gap: 80px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border-\[1px\] {
+  border-width: 1px;
+}
+
+.border {
   border-width: 1px;
 }
 
@@ -719,9 +759,57 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
 
+.border-\[\] {
+  border-color: ;
+}
+
+.border-\[\#CDB494\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(205 180 148 / var(--tw-border-opacity, 1));
+}
+
 .bg-\[\#F7F7F7\] {
   --tw-bg-opacity: 1;
   background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[rounded-full\] {
+  background-color: rounded-full;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#CDB494\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(205 180 148 / var(--tw-bg-opacity, 1));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 29 29 / var(--tw-bg-opacity, 1));
+}
+
+.p-\[1px\] {
+  padding: 1px;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .py-\[\] {
@@ -754,12 +842,29 @@ video {
   padding-right: 30px;
 }
 
+.py-\[16px\] {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 .pl-\[200px\] {
   padding-left: 200px;
 }
 
+.pt-\[30px\] {
+  padding-top: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-\[35px\] {
   font-size: 35px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .font-bold {
@@ -768,4 +873,8 @@ video {
 
 .text-\[\] {
   color: ;
+}
+
+.text-\[40\] {
+  color: 40;
 }
